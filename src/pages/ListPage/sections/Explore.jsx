@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useHackathons } from "../../../context/HackathonContext";
 import HackathonItem from "../../../components/HackathonItems";
 import Dropdown from "../../../components/Dropdown";
-import SearchBar from "../../../components/SearchBar";
+import SearchBar from "../../../components/Searchbar";
 import AddedFilters from "../../../components/AddedFilters";
 
 const Explore = () => {
