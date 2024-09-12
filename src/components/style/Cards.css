@@ -1,0 +1,194 @@
+.card-container {
+  width: 542px;
+  height: 276px;
+  padding: 0px 26px;
+  border-radius: 20px;
+  background-color: #f8f9fd;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-hTwo {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -3%;
+}
+.card-para {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #64607d;
+}
+
+/* Hackathon Card Styling */
+.hackathon-card-container {
+  width: 100%;
+}
+.hack-h2 {
+  width: 100%;
+  height: 107px;
+  padding: 41px 89px;
+  background-color: #f8f9fd;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+}
+.input-divs {
+  display: flex;
+  flex-direction: column;
+}
+.input-labels {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.26px;
+  color: #333333;
+}
+.input-fields {
+  width: 453px;
+  height: 39px;
+  padding: 0px 18px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #808080;
+}
+.input-textarea {
+  width: 817px;
+  height: 252px;
+  padding: 18px 18px;
+}
+.input-file{
+  width: 236px;
+  height: 39px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.input-select {
+  width: 236px;
+  color: #000000;
+}
+.submit-btn {
+  width: 214px;
+  height: 46px;
+  padding: 6px 18px;
+  border-radius: 10px;
+  background-color: #44924c;
+  color: #ffffff;
+}
+
+/* Hackathon Items Sstyling */
+.card {
+  width: 354px;
+  height: 473px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px -2.51px 6px 0px #0000000f inset;
+  box-shadow: 0px 2.51px 1.67px 0px #ffffff00 inset;
+  box-shadow: 0px -3.3px 24px 0px #84848429;
+  overflow: hidden;
+}
+.card-image {
+  width: 100%;
+  height: 174px;
+  object-fit: cover;
+}
+.main-card-content {
+  width: 100%;
+  height: calc(100% - 175px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-content {
+  width: 246px;
+  height: 247px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.status-badge {
+  width: 87px;
+  height: 21px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.status-badge.upcoming {
+  background-color: #f39c12;
+}
+.status-badge.active {
+  background: #44924c3d;
+  color: #44924c;
+}
+
+.status-badge.past {
+  background: #ff3c002b;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.timer-wrapper p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+}
+.timer {
+  width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.timer-item span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #454545;
+}
+.timer-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+}
+.participate-button {
+  width: 182.55px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #44924c;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.participate-button:hover {
+  background-color: #27ae60;
+}

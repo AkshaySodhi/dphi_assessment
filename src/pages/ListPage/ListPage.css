@@ -1,0 +1,162 @@
+.list-page-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Home Styling */
+.home-section {
+  width: 100%;
+  height: 525px;
+  background-color: #003145;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left-div {
+  width: 705px;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-div img
+{
+  scale: 1.2;
+}
+.hOne-heading {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  border-left: 10px solid #ffce5c;
+  padding-left: 50px;
+}
+.hFour-heading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-left: 60px;
+}
+.create-btn {
+  width: 198px;
+  height: 47px;
+  margin-left: 60px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+/* Statistics Styling */
+.statistics-container {
+  width: 100%;
+  height: 200px;
+  background-color: #002a3b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.inner-div {
+  display: flex;
+  align-items: center;
+}
+.hTwo-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.hFive-heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* Why Styling */
+.why-container {
+  width: 100%;
+  height: 769px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.why-h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.card-mapping-div {
+  width: 1119px;
+  height: 593px;
+}
+
+/* Explore Styling */
+.explore-container {
+  width: 100%;
+}
+.functionality-div {
+  width: 100%;
+  height: 324px;
+  background-color: #002a3b;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.explore-h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.input-div {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  position: relative;
+}
+.input-field {
+  width: 829px;
+  height: 50px;
+  padding: 0px 60px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  outline: none;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.filter-btn {
+  width: 110px;
+  height: 50px;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hackathon-card-mapping {
+  width: 100%;
+  padding: 50px;
+  background-color: #003145;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.filter-style {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  background-color: #ffffff;
+  outline: none;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+}
